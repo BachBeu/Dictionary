@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dictionary</title>
+</head>
+<body>
+<script>
+    str = prompt();
+    var Eng = ["Cat", "Dog", "Chicken", "Rabbit"];
+    var Vie = ["Mèo", "Chó", "Gà", "Thỏ"];
+    var result = [];
+        if(Eng.indexOf(str) == -1){
+            document.write('Không tim thấy');
+        } else {
+            result = Vie[Eng.indexOf(str)];
+            document.write(result);
+        }
+</script>
+</body>
+</html>
